@@ -1,0 +1,69 @@
+# ===== 红果短剧（Surge）去广告 =====
+
+# 穿山甲（核心）
+DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
+DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com,REJECT
+
+DOMAIN,api-access.pangolin-sdk-toutiao.com,REJECT
+DOMAIN,api-access.pangolin-sdk-toutiao-b.com,REJECT
+
+DOMAIN,log-api.pangolin-sdk-toutiao.com,REJECT
+DOMAIN,log-api.pangolin-sdk-toutiao-b.com,REJECT
+
+DOMAIN,gromore.pangolin-sdk-toutiao.com,REJECT
+
+DOMAIN-SUFFIX,csjplatform.com,REJECT
+
+# 字节广告
+DOMAIN,ad.zijieapi.com,REJECT
+
+DOMAIN,ads3-normal.zijieapi.com,REJECT
+DOMAIN,ads3-normal-lf.zijieapi.com,REJECT
+DOMAIN,ads3-normal-lq.zijieapi.com,REJECT
+DOMAIN,ads3-normal-hl.zijieapi.com,REJECT
+
+DOMAIN,ads5-normal.zijieapi.com,REJECT
+DOMAIN,ads5-normal-lf.zijieapi.com,REJECT
+DOMAIN,ads5-normal-lq.zijieapi.com,REJECT
+DOMAIN,ads5-normal-hl.zijieapi.com,REJECT
+
+# 今日头条广告
+DOMAIN,ad.toutiao.com,REJECT
+DOMAIN,dm.toutiao.com,REJECT
+DOMAIN,monsetting.toutiao.com,REJECT
+
+# 字节日志统计
+DOMAIN,applog.zijieapi.com,REJECT
+DOMAIN,log.zijieapi.com,REJECT
+DOMAIN,mcs.zijieapi.com,REJECT
+
+# PGL 广告资源
+DOMAIN-SUFFIX,pglstatp-toutiao.com,REJECT
+
+DOMAIN,lf3-ad-union-sdk.pglstatp-toutiao.com,REJECT
+DOMAIN,lf6-ad-union-sdk.pglstatp-toutiao.com,REJECT
+
+DOMAIN,p1-be-pack-sign.pglstatp-toutiao.com,REJECT
+DOMAIN,p2-be-pack-sign.pglstatp-toutiao.com,REJECT
+DOMAIN,p3-be-pack-sign.pglstatp-toutiao.com,REJECT
+DOMAIN,p4-be-pack-sign.pglstatp-toutiao.com,REJECT
+DOMAIN,p5-be-pack-sign.pglstatp-toutiao.com,REJECT
+DOMAIN,p6-be-pack-sign.pglstatp-toutiao.com,REJECT
+
+# snssdk
+DOMAIN-SUFFIX,snssdk.com,REJECT
+
+# ByteDance SDK
+DOMAIN,mssdk.zijieapi.com,REJECT
+DOMAIN,open.snssdk.com,REJECT
+DOMAIN,success.ctobsnssdk.com,REJECT
+DOMAIN,toblog.ctobsnssdk.com,REJECT
+
+# ixigua（红果部分资源共用）
+DOMAIN-SUFFIX,ixigua.com,REJECT
+
+DOMAIN,search.ixigua.com,REJECT
+DOMAIN,search3-search.ixigua.com,REJECT
+DOMAIN,search5-search.ixigua.com,REJECT
+DOMAIN,search5-search-hl.ixigua.com,REJECT
+DOMAIN,api5-normal-quic-lf.ixigua.com,REJECT
